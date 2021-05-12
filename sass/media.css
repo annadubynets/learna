@@ -97,7 +97,7 @@ p {
   }
 
   .pt-120px {
-    padding-top: 260px;
+    padding-top: 210px;
   }
 
   .pt-320px {
@@ -155,15 +155,10 @@ p {
 }
 @media (max-width: 480px) {
   .pt-147px {
-    padding-top: 124px;
+    padding-top: 100px;
   }
 }
-@media (max-width: 370px) {
-  .pt-147px {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 380px) {
   .pt-147px {
     padding-top: 0px;
   }

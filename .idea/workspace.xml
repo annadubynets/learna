@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cac96de-df8a-463c-847b-8dab53fb05a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +78,7 @@
       <workItem from="1620812788959" duration="44000" />
       <workItem from="1620812883228" duration="3360000" />
       <workItem from="1620816801119" duration="4625000" />
-      <workItem from="1620822942611" duration="196000" />
+      <workItem from="1620822942611" duration="504000" />
     </task>
     <servers />
   </component>
