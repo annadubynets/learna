@@ -7,22 +7,16 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
   color: #153A59;
 }
 
 h3 {
   font-weight: normal;
-  font-size: 24px;
-  color: #153A59;
-}
-
-h4 {
-  font-weight: normal;
   font-size: 22px;
   color: #153A59;
 }
-h4 span {
+h3 span {
   font-weight: bold;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.16);
@@ -131,6 +125,14 @@ p {
   .hero .card-body {
     border: none;
     box-shadow: none;
+  }
+
+  .type-studies .circle-img {
+    width: 95px;
+    height: 95px;
+  }
+  .type-studies .type-img-style {
+    width: 42px;
   }
 
   .people-img {
