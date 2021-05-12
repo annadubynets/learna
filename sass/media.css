@@ -125,12 +125,10 @@ p {
     position: absolute;
     top: 64px;
   }
-
-  .card {
+  .hero .card {
     border-radius: 0;
   }
-
-  .card-body {
+  .hero .card-body {
     border: none;
     box-shadow: none;
   }
