@@ -1,0 +1,83 @@
+$blue-color: #153A59;
+$light-blue-color: #B5CBEA;
+$pink-color: #F0508A;
+$white-color: #FFFFFF;
+h1 {
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    color: $white-color;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 28px;
+    color: $blue-color;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 24px;
+    color: $blue-color;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 22px;
+    color: $blue-color;
+    span {
+        font-weight: bold;
+        font-size: 14px;
+        color: rgba(0, 0, 0, .16);
+    }
+}
+
+p {
+    font-weight: normal;
+    font-size: 14px;
+    color: $blue-color;
+}
+
+.pt-30px {
+    padding-top: 30px;
+}
+
+.pt-100px {
+    padding-top: 100px;
+}
+
+.pt-120px {
+    padding-top: 120px;
+}
+
+.pt-260px {
+    padding-top: 260px;
+}
+
+.pt-320px {
+    padding-top: 320px;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.text-primary {
+    color: $blue-color!important;
+}
+
+.text-muted {
+    color: #8D8D8D!important;
+}
+
+.text-pink {
+    color: $pink-color!important;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}

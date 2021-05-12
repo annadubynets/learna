@@ -1,0 +1,172 @@
+h1 {
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 28px;
+  color: #153A59;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+  color: #153A59;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 22px;
+  color: #153A59;
+}
+h4 span {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.16);
+}
+
+p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #153A59;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+
+.pt-100px {
+  padding-top: 100px;
+}
+
+.pt-120px {
+  padding-top: 120px;
+}
+
+.pt-260px {
+  padding-top: 260px;
+}
+
+.pt-320px {
+  padding-top: 320px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.text-primary {
+  color: #153A59 !important;
+}
+
+.text-muted {
+  color: #8D8D8D !important;
+}
+
+.text-pink {
+  color: #F0508A !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .pt-120px {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .pt-100px {
+    padding-top: 50px;
+  }
+
+  .pt-147px {
+    padding-top: 147px;
+  }
+
+  .pt-120px {
+    padding-top: 260px;
+  }
+
+  .pt-320px {
+    padding-top: 200px;
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+  }
+
+  .nav-item:after {
+    display: none;
+  }
+
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero .hero-img {
+    background: url("../images/main_bg_mobile.png"), #153A59;
+    background-size: 100% 142px;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 529px;
+    position: absolute;
+    top: 64px;
+  }
+
+  .card {
+    border-radius: 0;
+  }
+
+  .card-body {
+    border: none;
+    box-shadow: none;
+  }
+
+  .people-img {
+    background: url(../images/people_mobile.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px;
+  }
+
+  .how-will-learn .how-will-descr {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .iframe-container iframe {
+    height: 190px;
+  }
+}
+@media (max-width: 480px) {
+  .pt-147px {
+    padding-top: 124px;
+  }
+}
+@media (max-width: 370px) {
+  .pt-147px {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .pt-147px {
+    padding-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

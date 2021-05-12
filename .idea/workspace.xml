@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cac96de-df8a-463c-847b-8dab53fb05a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PatuaOne-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/variables.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sLANs3TW91UBguvGOVO0cbSwse" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/sass" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cac96de-df8a-463c-847b-8dab53fb05a6" name="Default Changelist" comment="" />
+      <created>1620641458602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620641458602</updated>
+      <workItem from="1620641459637" duration="34000" />
+      <workItem from="1620641518911" duration="31000" />
+      <workItem from="1620641740062" duration="9000" />
+      <workItem from="1620641755403" duration="106000" />
+      <workItem from="1620641908237" duration="237000" />
+      <workItem from="1620642281074" duration="70000" />
+      <workItem from="1620642367023" duration="380000" />
+      <workItem from="1620643016656" duration="26000" />
+      <workItem from="1620643161393" duration="350000" />
+      <workItem from="1620655189083" duration="9203000" />
+      <workItem from="1620671399747" duration="11492000" />
+      <workItem from="1620732899464" duration="1342000" />
+      <workItem from="1620735620926" duration="6276000" />
+      <workItem from="1620746482283" duration="947000" />
+      <workItem from="1620747450491" duration="109000" />
+      <workItem from="1620747595018" duration="178000" />
+      <workItem from="1620747800417" duration="105000" />
+      <workItem from="1620747920795" duration="85000" />
+      <workItem from="1620748081504" duration="686000" />
+      <workItem from="1620755198364" duration="5722000" />
+      <workItem from="1620812788959" duration="44000" />
+      <workItem from="1620812883228" duration="3360000" />
+      <workItem from="1620816801119" duration="4625000" />
+      <workItem from="1620822942611" duration="196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620806425025">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1620806425025" />
+    <state x="372" y="227" key="EditFileWatcherDialog" timestamp="1620641477772">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="372" y="227" key="EditFileWatcherDialog/0.23.1440.838@0.23.1440.838" timestamp="1620641477772" />
+    <state x="418" y="82" width="604" height="735" key="find.popup" timestamp="1620813095463">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="82" width="604" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1620813095463" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1620813283436">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.23.1440.838@0.23.1440.838" timestamp="1620813283436" />
+  </component>
+</project>
