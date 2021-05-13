@@ -3,8 +3,37 @@
 @import "../css/owl.theme.default.css";
 @import "../css/fonts.css";
 @import "variables";
-* {
-    font-family: Roboto;
+
+h1, h2, h3 {
+    font-family: "Patua One", sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 45px;
+    line-height: 54px;
+    color: $white-color;
+}
+
+h2 {
+    font-size: 28px;
+    color: $blue-color;
+}
+
+h3 {
+    font-size: 22px;
+    color: $blue-color;
+    span {
+        font-weight: bold;
+        font-size: 14px;
+        color: rgba(0, 0, 0, .16);
+    }
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: $blue-color;
 }
 
 .striped-border {
@@ -42,6 +71,7 @@
 }
 
 .form-control-label {
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: $blue-color;
@@ -53,6 +83,7 @@
 }
 
 .submit-btn {
+    font-family: "Patua One", sans-serif;
     font-weight: normal;
     font-size: 18px;
     background-color: $pink-color;
@@ -65,6 +96,7 @@
 }
 
 .request-btn {
+    font-family: "Patua One", sans-serif;
     font-weight: normal;
     font-size: 18px;
     background-color: $pink-color;
@@ -83,6 +115,7 @@
 }
 
 .required-field {
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 14px;
     color: $blue-color;
@@ -120,6 +153,7 @@
 }
 
 .custom-control-label {
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -165,7 +199,6 @@
         top: 64px;
     }
     .hero-descr {
-        font-weight: normal;
         font-size: 16px;
         color: $white-color;
     }
@@ -175,20 +208,24 @@
     .card {
         border: none;
         border-radius: 5px;
-    }
-
-    .card-body {
-        border: 1px solid $light-blue-color;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11);
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-
-    .card-submit {
-        background-color: $pink-color;
-        border: none;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+        .card-body {
+            border: 1px solid $light-blue-color;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            .card-title {
+                font-family: "Roboto", sans-serif;
+                font-weight: bold;
+                font-size: 22px;
+                color: $blue-color;
+            }
+        }
+        .card-submit {
+            background-color: $pink-color;
+            border: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
     }
 }
 
@@ -196,6 +233,7 @@
     background-color: #F8F9FA;
     padding: 44px 0 50px;
     .type-studies-title {
+        font-family: "Roboto", sans-serif;
         font-weight: bold;
         font-size: 18px;
         color: $blue-color;
@@ -227,6 +265,7 @@
     .list-style {
         padding: 0 15px;
         .list-item {
+            font-family: "Roboto", sans-serif;
             font-weight: normal;
             font-size: 16px;
             color: $blue-color;
@@ -247,6 +286,7 @@
     background-color: #F8F9FA;
     padding: 50px 0 88px;
     .how-will-descr {
+        font-family: "Roboto", sans-serif;
         font-weight: normal;
         font-size: 28px;
         color: #F0508A;
@@ -264,12 +304,14 @@
             border: none;
             box-shadow: none;
         }
-        .testimonial-title {
+        .testimonials-title {
+            font-family: "Open Sans", sans-serif;
             font-weight: bold;
             font-size: 16px;
             color: #272727;
         }
-        .testimonial-descr {
+        .testimonials-descr {
+            font-family: "Open Sans", sans-serif;
             font-weight: normal;
             font-size: 14px;
             color: #272727;
@@ -285,6 +327,7 @@
         transition: all .3s;
     }
     .view-all-link {
+        font-family: "Open Sans", sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: #85A5CC;
@@ -430,20 +473,20 @@
     border-color: transparent;
 }
 .nav-link{
-    color: $blue-color;
+    font-family: "Patua One", sans-serif;
     font-weight: normal;
+    font-size: 16px;
+    color: $blue-color;
     transition: all 200ms linear;
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
 }
 .nav-item:hover .nav-link{
     color: #0056b3!important;
 }
 .nav-item.active .nav-link{
     color: #0056b3!important;
-}
-.nav-link {
-    position: relative;
-    padding: 5px 0 !important;
-    display: inline-block;
 }
 .nav-item:after{
     position: absolute;
@@ -466,6 +509,13 @@
 .nav-item{
     position: relative;
     transition: all 200ms linear;
+}
+
+.dropdown-item {
+    font-family: "Patua One", sans-serif;
+    font-weight: normal;
+    color: $blue-color;
+    font-size: 16px;
 }
 
 .dropdown-menu {
