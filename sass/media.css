@@ -24,7 +24,7 @@ h3 span {
 
 p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: #153A59;
 }
 
@@ -125,6 +125,10 @@ p {
   .hero .card-body {
     border: none;
     box-shadow: none;
+  }
+  .hero .card-submit {
+    margin: 0 16px;
+    border-radius: 5px;
   }
 
   .type-studies .circle-img {

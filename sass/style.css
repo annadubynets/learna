@@ -28,7 +28,7 @@ h3 span {
 
 p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: #153A59;
 }
 
@@ -130,7 +130,7 @@ p {
   font-size: 18px;
   background-color: #F0508A;
   color: #FFFFFF;
-  padding: 22px 0;
+  padding: 20px 0;
 }
 .submit-btn:hover, .submit-btn:focus {
   color: #FFFFFF;
@@ -141,7 +141,8 @@ p {
   font-size: 18px;
   background-color: #F0508A;
   color: #FFFFFF;
-  padding: 22px 66px;
+  padding: 20px 66px;
+  border-radius: 5px;
 }
 .request-btn:hover, .request-btn:focus {
   color: #FFFFFF;
@@ -256,6 +257,8 @@ p {
 .hero .card-submit {
   background-color: #F0508A;
   border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .type-studies {
@@ -296,7 +299,7 @@ p {
 }
 .who-is .list-style .list-item {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: #153A59;
 }
 
