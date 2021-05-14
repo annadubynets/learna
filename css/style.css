@@ -392,6 +392,9 @@ p {
   padding-bottom: 56px;
   position: relative;
 }
+.hero .trustpilot-widget {
+  margin-left: -15px;
+}
 .hero .hero-bg {
   background-color: #153A59;
   width: 100%;

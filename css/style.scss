@@ -327,6 +327,9 @@ p {
 .hero {
     padding-bottom: 56px;
     position: relative;
+    .trustpilot-widget {
+        margin-left: -15px;
+    }
     .hero-bg {
         background-color: $blue-color;
         width: 100%;
