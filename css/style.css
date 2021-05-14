@@ -1,6 +1,4 @@
 @import "bootstrap.min.css";
-@import "owl.carousel.min.css";
-@import "owl.theme.default.css";
 @import "fonts.css";
 .pt-30px {
   padding-top: 30px;
@@ -10,8 +8,8 @@
   padding-top: 100px;
 }
 
-.pt-120px {
-  padding-top: 120px;
+.pt-80px {
+  padding-top: 80px;
 }
 
 .pt-260px {
@@ -394,15 +392,20 @@ p {
   padding-bottom: 56px;
   position: relative;
 }
-.hero .hero-img {
-  background: url("../images/main_bg.png"), #153A59;
-  background-size: 100% 259px;
-  background-position: top;
-  background-repeat: no-repeat;
+.hero .hero-bg {
+  background-color: #153A59;
   width: 100%;
   height: 584px;
   position: absolute;
   top: 64px;
+}
+.hero .hero-bg .hero-img {
+  background: url("../images/main_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 259px;
+  position: relative;
 }
 .hero .hero-descr {
   font-size: 16px;
@@ -577,36 +580,6 @@ p {
   height: 40vw;
   z-index: -1;
   border-radius: 50%;
-}
-.testimonials .owl-carousel .owl-nav button.owl-prev {
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 32px;
-  height: 32px;
-  border: 1px solid #D7DCE1;
-  border-radius: 50%;
-  position: absolute;
-  top: 40%;
-  left: -50px;
-}
-.testimonials .owl-carousel .owl-nav button.owl-prev span {
-  display: block;
-  color: #D7DCE1;
-}
-.testimonials .owl-carousel .owl-nav button.owl-next {
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 32px;
-  height: 32px;
-  border: 1px solid #D7DCE1;
-  border-radius: 50%;
-  position: absolute;
-  top: 40%;
-  right: -35px;
-}
-.testimonials .owl-carousel .owl-nav button.owl-next span {
-  display: block;
-  color: #D7DCE1;
 }
 
 /*# sourceMappingURL=style.css.map */
