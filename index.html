@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learna</title>
-    <link rel="stylesheet" href="sass/style.css">
-    <link rel="stylesheet" href="sass/media.css">
+    <link rel="stylesheet" href="css/intlTelInput.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -68,11 +69,16 @@
                     <div class="d-block px-3">
                         <h1 class="pt-4">Online Executive MBA</h1>
 
-<!--                        <div class="trustpilot-widget mt-2 ml-3" data-locale="en-US" data-template-id="5419b732fbfb950b10de65e5"-->
-<!--                             data-businessunit-id="5a3a4344b894c90c086a81ad" data-style-height="24px" data-style-width="100%"-->
-<!--                             data-theme="light">-->
-<!--                            <a href="https://www.trustpilot.com/review/diploma-msc.com" target="_blank" rel="noopener" class="text-white">Trustpilot</a>-->
-<!--                        </div>-->
+                        <div class="trustpilot-widget mt-3 " data-locale="en-US" data-template-id="5419b732fbfb950b10de65e5"
+                             data-businessunit-id="5a3a4344b894c90c086a81ad" data-style-height="24px" data-style-width="auto"
+                             data-theme="dark" data-style-color="red">
+                            <a href="https://www.trustpilot.com/review/diploma-msc.com" target="_blank" rel="noopener" class="text-white">Trustpilot</a>
+                            <style>
+                                .tp-widget-trustscore {
+                                    color: red;
+                                }
+                            </style>
+                        </div>
 
                         <p class="hero-descr pt-4">Our range of Online Executive MBAs are designed for mid-level managers, executives and business leaders who want to stay on top of their game and stand out from their peers. If you want to improve your knowledge, open the door to new opportunities and maximise your earning potential, this is the course for you.
                         </p>
@@ -94,15 +100,15 @@
                                             <input type="text" id="firstNameMobile" class="form-control">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control">
+                                            <input type="text" id="lastNameMobile" class="form-control">
                                         </div>
                                     </div>
 
                                     <div class="form-group col-12 px-0">
-                                        <label class="form-control-label" for="inputPhoneMobile">Telephone number
+                                        <label class="form-control-label" for="phoneMobile">Telephone number
                                             <span class="required" aria-hidden="true">*</span>
                                         </label>
-                                        <input type="email" class="form-control" id="inputPhoneMobile">
+                                        <input type="tel" class="form-control" id="phoneMobile">
                                     </div>
 
                                     <div class="form-group col-12 px-0">
@@ -248,15 +254,15 @@
                                             <input type="text" id="firstName" class="form-control">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control">
+                                            <input type="text" id="lastName" class="form-control">
                                         </div>
                                     </div>
 
                                     <div class="form-group col-12 px-0">
-                                        <label class="form-control-label" for="inputPhone">Telephone number
+                                        <label class="form-control-label" for="phone">Telephone number
                                             <span class="required" aria-hidden="true">*</span>
                                         </label>
-                                        <input type="email" class="form-control" id="inputPhone">
+                                        <input type="tel" class="form-control" id="phone">
                                     </div>
 
                                     <div class="form-group col-12 px-0">
@@ -371,7 +377,7 @@
         </div>
     </section>
 
-    <div class="people-img"></div>
+    <div class="who-is-bg"></div>
 
     <section class="testimonials position-relative overflow-hidden">
         <div class="container">
@@ -390,87 +396,62 @@
                                 </div>
                                 <div class="col-lg-8 col-12">
                                     <div class="owl-carousel">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                        <div>
+                                            <div class="testimonials-title">
+                                                Great course, reconm...
                                             </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                            <div class="testimonials-descr mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
+                                            </div>
+                                            <div class="testimonials-descr text-muted mt-2">
+                                                Lorem user
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                        <div>
+                                            <div class="testimonials-title">
+                                                Great course, reconm...
                                             </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                            <div class="testimonials-descr mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
+                                            </div>
+                                            <div class="testimonials-descr text-muted mt-2">
+                                                Lorem user
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                        <div>
+                                            <div class="testimonials-title">
+                                                Great course, reconm...
                                             </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="testimonials-title">
-                                                    Great course, reconm...
-                                                </div>
-                                                <div class="testimonials-descr mt-2">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
-                                                </div>
-                                                <div class="testimonials-descr text-muted mt-2">
-                                                    Lorem user
-                                                </div>
+                                            <div class="testimonials-descr mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
+                                            </div>
+                                            <div class="testimonials-descr text-muted mt-2">
+                                                Lorem user
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="testimonials-title">
+                                                Great course, reconm...
+                                            </div>
+                                            <div class="testimonials-descr mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis pellentesque lobortis.  Nulla tellus purus, rhoncus.
+                                            </div>
+                                            <div class="testimonials-descr text-muted mt-2">
+                                                Lorem user
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="text-center pt-4 d-lg-none d-block">
+                                <a href="#" class="view-all-link text-center">view all reviews</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center pt-4">
+                    <img class="icon-bottom-right" src="images/man-icon.svg">
+                    <div class="text-center pt-4 d-lg-block d-none">
                         <a href="#" class="view-all-link text-center">view all reviews</a>
                     </div>
-                    <img class="icon-bottom-right" src="images/man-icon.svg">
                 </div>
             </div>
         </div>
@@ -530,6 +511,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <script src="js/intlTelInput.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
 </body>

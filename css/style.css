@@ -1,7 +1,7 @@
-@import "../css/bootstrap.min.css";
-@import "../css/owl.carousel.min.css";
-@import "../css/owl.theme.default.css";
-@import "../css/fonts.css";
+@import "bootstrap.min.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.css";
+@import "fonts.css";
 .pt-30px {
   padding-top: 30px;
 }
@@ -113,55 +113,49 @@ p {
   /* W3C */
 }
 
-.form-control-label {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  color: #153A59;
+/* International Telephone Input
+================================================== */
+.iti__flag {
+  background-image: url("../images/flags.png");
 }
 
-.form-control {
-  border: 1px solid #B5CBEA;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {
+    background-image: url("../images/flags@2x.png");
+  }
+}
+.iti {
+  display: block;
 }
 
-.submit-btn {
-  font-family: "Patua One", sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  background-color: #F0508A;
-  color: #FFFFFF;
-  padding: 20px 0;
-}
-.submit-btn:hover, .submit-btn:focus {
-  color: #FFFFFF;
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: #F6F8F9;
 }
 
-.request-btn {
-  font-family: "Patua One", sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  background-color: #F0508A;
-  color: #FFFFFF;
-  padding: 20px 66px;
-  border-radius: 5px;
+/* iframe video
+================================================== */
+.iframe-container {
+  position: relative;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
-.request-btn:hover, .request-btn:focus {
-  color: #FFFFFF;
-}
-
-.border-top {
-  border-top: 1px solid rgba(0, 0, 0, 0.16);
-  padding: 9px 0;
-}
-
-.required-field {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #153A59;
+.iframe-container iframe {
+  border: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 206px;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
+.video-container {
+  border-radius: 10px;
+}
+
+/* Custom checkbox
+================================================== */
 .custom-checkbox .custom-control-label::before {
   background-color: #FFFFFF;
   border: 1px solid #B5CBEA;
@@ -206,26 +200,45 @@ p {
   text-decoration: underline;
 }
 
-.iframe-container {
-  position: relative;
-  border-radius: 10px;
-  transition: all 0.3s;
+.submit-btn {
+  font-family: "Patua One", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: #F0508A;
+  color: #FFFFFF;
+  padding: 20px 0;
 }
-.iframe-container iframe {
-  border: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 206px;
-  transition: all 0.3s;
-  cursor: pointer;
+.submit-btn:hover, .submit-btn:focus {
+  color: #FFFFFF;
 }
 
-.video-container {
-  border-radius: 10px;
+.request-btn {
+  font-family: "Patua One", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: #F0508A;
+  color: #FFFFFF;
+  padding: 20px 66px;
+  border-radius: 5px;
+}
+.request-btn:hover, .request-btn:focus {
+  color: #FFFFFF;
 }
 
+.border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 9px 0;
+}
+
+.required-field {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #153A59;
+}
+
+/* Hero section
+================================================== */
 .hero {
   padding-bottom: 56px;
   position: relative;
@@ -263,6 +276,16 @@ p {
   font-size: 22px;
   color: #153A59;
 }
+.hero .card .card-body .form-control-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #153A59;
+}
+.hero .card .card-body .form-control {
+  border: 1px solid #B5CBEA;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
 .hero .card .card-submit {
   background-color: #F0508A;
   border: none;
@@ -270,6 +293,8 @@ p {
   border-bottom-right-radius: 5px;
 }
 
+/* Type studies section
+================================================== */
 .type-studies {
   background-color: #F8F9FA;
   padding: 44px 0 50px;
@@ -301,6 +326,8 @@ p {
   width: 80px;
 }
 
+/* Who is section
+================================================== */
 .who-is {
   padding: 50px 0;
 }
@@ -314,7 +341,7 @@ p {
   color: #153A59;
 }
 
-.people-img {
+.who-is-bg {
   background: url("../images/people.png");
   background-size: cover;
   background-position: top;
@@ -323,6 +350,8 @@ p {
   height: 271px;
 }
 
+/* How will learn section
+================================================== */
 .how-will-learn {
   background-color: #F8F9FA;
   padding: 50px 0 88px;
@@ -334,6 +363,8 @@ p {
   color: #F0508A;
 }
 
+/* Testimonials section
+================================================== */
 .testimonials {
   padding: 62px 0 86px;
 }
@@ -362,8 +393,8 @@ p {
 .testimonials .icon-bottom-right {
   pointer-events: none;
   position: absolute;
-  bottom: -50px;
-  right: -36px;
+  bottom: -80px;
+  right: -40px;
   width: 161px;
   height: 210px;
   transition: all 0.3s;
@@ -405,7 +436,7 @@ p {
   border-radius: 50%;
   position: absolute;
   top: 40%;
-  left: -36px;
+  left: -50px;
 }
 .testimonials .owl-carousel .owl-nav button.owl-prev span {
   display: block;
@@ -420,162 +451,11 @@ p {
   border-radius: 50%;
   position: absolute;
   top: 40%;
-  right: -36px;
+  right: -35px;
 }
 .testimonials .owl-carousel .owl-nav button.owl-next span {
   display: block;
   color: #D7DCE1;
-}
-
-/* Navigation
-================================================== */
-.start-header {
-  opacity: 1;
-  transform: translateY(0);
-  padding: 16px 0;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.start-header.scroll-on {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  padding: 10px 0;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.start-header.scroll-on .navbar-brand img {
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.navigation-wrap {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.navbar {
-  padding: 0;
-}
-
-.navbar-brand img {
-  height: 28px;
-  width: auto;
-  display: block;
-  filter: brightness(10%);
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.navbar-toggler {
-  float: right;
-  border: none;
-  padding-right: 0;
-}
-
-.navbar-toggler:active,
-.navbar-toggler:focus {
-  outline: none;
-}
-
-.navbar-light .navbar-toggler-icon {
-  width: 24px;
-  height: 17px;
-  background-image: none;
-  position: relative;
-  border-bottom: 1px solid #153A59;
-  transition: all 300ms linear;
-}
-
-.navbar-light .navbar-toggler-icon:after,
-.navbar-light .navbar-toggler-icon:before {
-  width: 24px;
-  position: absolute;
-  height: 1px;
-  background-color: #153A59;
-  top: 0;
-  left: 0;
-  content: "";
-  z-index: 2;
-  transition: all 300ms linear;
-}
-
-.navbar-light .navbar-toggler-icon:after {
-  top: 8px;
-}
-
-.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:after {
-  transform: rotate(45deg);
-}
-
-.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:before {
-  transform: translateY(8px) rotate(-45deg);
-}
-
-.navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
-  border-color: transparent;
-}
-
-.nav-link {
-  font-family: "Patua One", sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  color: #153A59;
-  transition: all 200ms linear;
-  position: relative;
-  padding: 5px 0 !important;
-  display: inline-block;
-}
-
-.nav-item:hover .nav-link {
-  color: #0056b3 !important;
-}
-
-.nav-item.active .nav-link {
-  color: #0056b3 !important;
-}
-
-.nav-item:after {
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  content: "";
-  background-color: #0056b3;
-  opacity: 0;
-  transition: all 200ms linear;
-}
-
-.nav-item:hover:after {
-  bottom: 0;
-  opacity: 1;
-}
-
-.nav-item.active:hover:after {
-  opacity: 0;
-}
-
-.nav-item {
-  position: relative;
-  transition: all 200ms linear;
-}
-
-.dropdown-item {
-  font-family: "Patua One", sans-serif;
-  font-weight: normal;
-  color: #153A59;
-  font-size: 16px;
-}
-
-.dropdown-menu {
-  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

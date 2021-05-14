@@ -3,13 +3,12 @@ $('.testimonials .owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     dots:false,
-    adaptiveHeight: false,
     responsive:{
         0:{
             items:1
         },
         1000:{
-            items:1
+            items:2
         }
     }
 });
@@ -24,5 +23,19 @@ $(function() {
         } else {
             header.removeClass("scroll-on").addClass('start-style');
         }
+    });
+});
+
+$(function() {
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        separateDialCode: true
+    });
+});
+
+$(function() {
+    var input = document.querySelector("#phoneMobile");
+    window.intlTelInput(input, {
+        separateDialCode: true
     });
 });

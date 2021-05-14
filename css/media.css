@@ -109,7 +109,7 @@
     width: 42px;
   }
 
-  .people-img {
+  .who-is-bg {
     background: url(../images/people_mobile.png);
     background-size: cover;
     background-position: top;
@@ -123,8 +123,21 @@
     line-height: 28px;
   }
 
+  .icon-bottom-right {
+    display: none;
+  }
+
   .iframe-container iframe {
     height: 190px;
+  }
+
+  .testimonials .owl-carousel .owl-nav button.owl-prev {
+    top: 124px;
+    left: 90px;
+  }
+  .testimonials .owl-carousel .owl-nav button.owl-next {
+    top: 124px;
+    right: 90px;
   }
 }
 @media (max-width: 480px) {
