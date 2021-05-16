@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cac96de-df8a-463c-847b-8dab53fb05a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow_next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow_prev.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7cac96de-df8a-463c-847b-8dab53fb05a6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +76,7 @@
       <workItem from="1620816801119" duration="4625000" />
       <workItem from="1620822942611" duration="8036000" />
       <workItem from="1620976654545" duration="14417000" />
-      <workItem from="1621152751261" duration="2088000" />
+      <workItem from="1621152751261" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -94,9 +84,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621152859585">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621155404735">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1621155404735" />
     <state x="544" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1621152859585" />
     <state x="372" y="227" key="EditFileWatcherDialog" timestamp="1620641477772">
       <screen x="0" y="23" width="1440" height="838" />
