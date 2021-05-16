@@ -76,39 +76,3 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?9pfoue');
-    src:  url('../fonts/icomoon.eot?9pfoue#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9pfoue') format('truetype'),
-    url('../fonts/icomoon.woff?9pfoue') format('woff'),
-    url('../fonts/icomoon.svg?9pfoue#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-ic_outline-navigate-before:before {
-    content: "\e900";
-    color: #D7DCE1;
-}
-.icon-ic_baseline-navigate-next:before {
-    content: "\e903";
-    color: #D7DCE1;
-}
-
