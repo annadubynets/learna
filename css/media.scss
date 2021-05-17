@@ -16,7 +16,7 @@
     padding-top: 170px;
   }
   .pt-80px {
-    padding-top: 210px;
+    padding-top: 40px;
   }
   .pt-320px {
     padding-top: 200px;
@@ -78,11 +78,6 @@
   .icon-bottom-right {
     display: none;
   }
-  .iframe-container {
-    iframe {
-      height: 190px;
-    }
-  }
   .testimonials {
     iframe {
       height: 320px!important;
@@ -94,9 +89,9 @@
     padding-top: 100px;
   }
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .pt-80px {
-    padding-top: 210px;
+    padding-top: 40px;
   }
 }
 @media (min-width: 320px) and (max-width: 416px) {
