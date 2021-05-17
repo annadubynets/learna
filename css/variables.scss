@@ -2,7 +2,6 @@ $blue-color: #153A59;
 $light-blue-color: #B5CBEA;
 $pink-color: #F0508A;
 $white-color: #FFFFFF;
-
 .pt-30px {
     padding-top: 30px;
 }
@@ -13,10 +12,6 @@ $white-color: #FFFFFF;
 
 .pt-80px {
     padding-top: 80px;
-}
-
-.pt-260px {
-    padding-top: 260px;
 }
 
 .pt-320px {
@@ -35,14 +30,6 @@ $white-color: #FFFFFF;
     color: $blue-color!important;
 }
 
-.text-muted {
-    color: #8D8D8D!important;
-}
-
 .text-pink {
     color: $pink-color!important;
-}
-
-.text-decoration-underline {
-    text-decoration: underline;
 }

@@ -10,10 +10,6 @@
   padding-top: 80px;
 }
 
-.pt-260px {
-  padding-top: 260px;
-}
-
 .pt-320px {
   padding-top: 320px;
 }
@@ -30,16 +26,8 @@
   color: #153A59 !important;
 }
 
-.text-muted {
-  color: #8D8D8D !important;
-}
-
 .text-pink {
   color: #F0508A !important;
-}
-
-.text-decoration-underline {
-  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
