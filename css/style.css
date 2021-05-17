@@ -361,6 +361,10 @@ p {
 .submit-btn:hover, .submit-btn:focus {
   color: #FFFFFF;
 }
+.submit-btn:hover {
+  transition: all 0.1s;
+  box-shadow: 0 10px 10px #00000022;
+}
 
 .request-btn {
   font-family: "Patua One", sans-serif;
@@ -373,6 +377,11 @@ p {
 }
 .request-btn:hover, .request-btn:focus {
   color: #FFFFFF;
+}
+.request-btn:hover {
+  transition: all 0.1s;
+  transform: translateY(5px);
+  box-shadow: 0 10px 10px #00000022;
 }
 
 .border-top {
@@ -427,6 +436,9 @@ p {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.hero .card .card-body p {
+  font-size: 14px;
 }
 .hero .card .card-body .card-title {
   font-family: "Roboto", sans-serif;

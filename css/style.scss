@@ -293,6 +293,10 @@ p {
     &:focus {
         color: $white-color;
     }
+    &:hover {
+        transition: all .1s;
+        box-shadow: 0 10px 10px #00000022;
+    }
 }
 
 .request-btn {
@@ -306,6 +310,11 @@ p {
     &:hover,
     &:focus {
         color: $white-color;
+    }
+    &:hover {
+        transition: all .1s;
+        transform: translateY(5px);
+        box-shadow: 0 10px 10px #00000022;
     }
 }
 
@@ -359,6 +368,9 @@ p {
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11);
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
+            p {
+                font-size: 14px;
+            }
             .card-title {
                 font-family: "Roboto", sans-serif;
                 font-weight: bold;
@@ -371,7 +383,6 @@ p {
                 font-size: 14px;
                 color: $blue-color;
             }
-
             .form-control {
                 border: 1px solid $light-blue-color;
                 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
