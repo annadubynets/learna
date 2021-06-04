@@ -385,27 +385,20 @@ p {
 
 /* Hero section
 ================================================== */
-.hero {
-  padding-bottom: 56px;
-  position: relative;
-}
-.hero .trustpilot-widget {
-  margin-left: -15px;
-}
-.hero .hero-bg {
-  background-color: #153A59;
-  width: 100%;
-  height: 584px;
-  position: absolute;
-  top: 64px;
-}
-.hero .hero-bg .hero-img {
+.hero-img {
   background: url("../images/main_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 259px;
-  position: relative;
+}
+
+.hero {
+  background-color: #153A59;
+  padding-bottom: 40px;
+}
+.hero .trustpilot-widget {
+  margin-left: -15px;
 }
 .hero .hero-descr {
   font-size: 16px;
@@ -414,40 +407,45 @@ p {
 .hero hr {
   border-top: 3px solid #F0508A;
 }
-.hero .card {
+
+.card {
   border: none;
   border-radius: 5px;
 }
-.hero .card .card-body {
+.card .card-body {
   border: 1px solid #B5CBEA;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.hero .card .card-body p {
+.card .card-body p {
   font-size: 14px;
 }
-.hero .card .card-body .card-title {
+.card .card-body .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 22px;
   color: #153A59;
 }
-.hero .card .card-body .form-control-label {
+.card .card-body .form-control-label {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: #153A59;
 }
-.hero .card .card-body .form-control {
+.card .card-body .form-control {
   border: 1px solid #B5CBEA;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
-.hero .card .card-submit {
+.card .card-submit {
   background-color: #F0508A;
   border: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.key-facts {
+  padding-bottom: 120px;
 }
 
 /* Type studies section
@@ -471,7 +469,7 @@ p {
   height: 157px;
 }
 .type-studies .bg-blue {
-  background: #2464B0;
+  background: #2464B0 !important;
 }
 .type-studies .bg-pink {
   background: #B93E73;

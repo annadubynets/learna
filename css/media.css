@@ -64,28 +64,33 @@
     display: none;
   }
 
-  .hero {
-    padding-bottom: 0;
-  }
-  .hero .hero-bg .hero-img {
-    background: url("../images/main_bg_mobile.png"), #153A59;
-    background-size: 100% 142px;
+  .hero-img {
+    background: url("../images/main_bg_mobile.png");
+    background-size: 100% 153px;
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
-    height: 529px;
-    position: absolute;
+    height: 153px;
   }
-  .hero .card {
+
+  .hero {
+    padding-bottom: 0;
+  }
+
+  .card {
     border-radius: 0;
   }
-  .hero .card .card-body {
+  .card .card-body {
     border: none;
     box-shadow: none;
   }
-  .hero .card .card-submit {
+  .card .card-submit {
     margin: 0 16px;
     border-radius: 5px;
+  }
+
+  .key-facts {
+    padding-bottom: 28px;
   }
 
   .type-studies .circle-img {
